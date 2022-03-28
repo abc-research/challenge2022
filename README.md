@@ -1,6 +1,6 @@
 # challenge2022 Website
 
-This is the repository for the [website](https://abc-research.github.io/bento2021) of the ABC bento activity recognition challenge by [sozolab](https://sozolab.jp)
+This is the repository for the [website](https://abc-research.github.io/challenge2022/) of the ABC bento activity recognition challenge by [sozolab](https://sozolab.jp)
 
 # IMPORTANT DATES
 <!-- - Start of competition: June 1, 2021 -->
