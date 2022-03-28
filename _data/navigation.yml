@@ -16,7 +16,7 @@ main:
   #   url: /submit/
   - title: "FAQ"
     url: /faq/
-  - title: "Orgarnizers"
+  - title: "Organizers"
     url: /organizers/
   # - title: "Prize rules"
   #   url: /prize_rules/
