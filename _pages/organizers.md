@@ -7,9 +7,8 @@ This challenge and associated workshop are organized by [Sozolab](https://sozola
 
 - *Defry Hamdhana*
 - *Christina Garcia*
-- *Nazmun Nahid*
 - *Haru Kaneko*
-#- *Sayeda Shamma Alia*
+- *Nazmun Nahid*
 - *Paula Lago*
 - *Sozo Inoue*
 
