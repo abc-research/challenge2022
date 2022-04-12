@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Results
-permalink: /results/
+#title: Results
+#permalink: /results/
 date: 2021-10-25T00:00:00+09:00
 ---
  
