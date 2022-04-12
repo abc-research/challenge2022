@@ -1,14 +1,15 @@
 ---
 layout: single
 permalink: /organizers/
-date: 2021-06-01T00:00:00+09:00
+date: 2022-04-11T00:00:00+09:00
 ---
 This challenge and associated workshop are organized by [Sozolab](https://sozolab.jp/?locale=en).
 
-- *Kohei Adachi*
+- *Defry Hamdhana*
+- *Christina Garcia*
 - *Nazmun Nahid*
 - *Haru Kaneko*
-- *Sayeda Shamma Alia*
+#- *Sayeda Shamma Alia*
 - *Paula Lago*
 - *Sozo Inoue*
 
