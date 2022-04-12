@@ -7,7 +7,7 @@ date: 2021-06-01T00:00:00+09:00
 
 # Frequently Asked Questions
 
-Submit your questions to abc at sozolab.jp with the subject *Bento Challenge*.
+Submit your questions to abc at sozolab.jp with the subject *Nurse Care Challenge 2022*.
 
 <!--
 **What is the sampling rate of each device?**
