@@ -13,7 +13,7 @@ This challenge and associated workshop are organized by [Sozolab](https://sozola
 - *Sozo Inoue*
 
 ## Lab Information
-Sozo Inoue Lab, Graduate School of Life Science and Systems Eneineering, Kyushu Institute of Technology.
+Sozo Inoue Lab, Graduate School of Life Science and Systems Engineering, Kyushu Institute of Technology.
 
 ## Address
 *Wakamatsu campus:* 2-4 Hibikino Wakamatsu-ku Kitakyushu Fukuoka 808-0196 JAPAN (Room 7270).
