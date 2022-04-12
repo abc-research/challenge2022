@@ -8,8 +8,8 @@ main:
   #   url: /rules/
   - title: "Tutorial"
     url: /tutorial/tutorial.html
-  - title: "Results"
-    url: /results/
+  #- title: "Results"
+  #  url: /results/
   # - title: "Registration"
   #   url: /registration/
   # - title: "Submit a result"
