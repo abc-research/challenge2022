@@ -3,7 +3,6 @@ layout: single
 title: Results
 permalink: /results/
 date: 2021-10-25T00:00:00+09:00
-toc: false
 ---
  
 The Cooking Activity Recognition Challenge was successfully held and the results were announced during International Conference on Activity and Behavior Computing (ABC2020), which was held in Kitakyushu, Japan.
