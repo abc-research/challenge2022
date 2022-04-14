@@ -1,23 +1,22 @@
 ---
 layout: single
-title: Bento Packaging Activity Recognition Challenge
+title: About the Nurse Care Activity Recognition Challenge 2022
 permalink: /learn/
-date: 2021-07-28T00:00:00+09:00
+date: 2022-04-14T00:00:00+09:00
 ---
 
-Human activity recognition (HAR) has a great impact on human-robot collaboration. With the betterment of lifestyle, it is getting harder to find human labor at a lower wage. This is a big problem for various industries where a big amount of workforce is required at a low wage. Robots can be a great solution for this problem if they can be used as an assistant for humans to do small tasks. To do so the robot needs to first understand what the human is doing! By keeping this in mind Bento Packaging Activity Recognition Data has been collected. Here subjects are asked to perform Bento-box packaging tasks. Though several datasets are available on cooking([abc cook2020](https://abc-research.github.io/cook2020/), [epic kitchens](https://epic-kitchens.github.io/2021)) and daily living data([activity net](http://activity-net.org/index.html)), this type of industrial activity data set is very hard to find. Cooking needs to follow a step-by-step workflow like Bento packing-which is another good place to implement human-robot collaboration but there are a lot of differences between these two types. While cooking the steps and ingredients used in the food solely depends on the user but during packing a bento you need to put the items the company asked you to do. So, it is very common to forget to put an ingredient and forget to notice, or sometimes when you notice the box is far away in the conveyor belt and if you hustle to put you might mess up the whole thing. Instances like this are very common in Bento-making companies which creates a lot of trouble. To help in this scenario a robot hand can be a perfect assistant but for that, it needs to know what the human is doing and if he has made any mistake, and what type of mistake has been made. Also recognizing these steps can be used for care quality assessment and for ensuring that safety protocols have been followed to avoid the human-robot collision.
+Human Activity Recognition (HAR) is the process of handling information from sensors and/or video capture devices under certain circumstances to correctly determine human activities. Traditionally, the HAR can be achieved by human observation through the visualization of video recording devices. However, it is time and labor consuming. Nowadays, this traditional way could be replaced by other simple and automatic methods based on sensors and Artificial Intelligence platforms. For instance, your smartphone or other smart wearable devices have the ability to recognize some of your movements such as walking or running based on the inside accelerometer sensor.
 
-Also, in current activity recognition systems it does not matter where you need to put the ingredients but during Bento packing it is very important to identify on which side of the conveyor belt the bento is. Depending on this we have divided activities into inside and outside activity. You can easily identify the position if it is happening inside or outside but their combined recognition to decide which activity is happening is critical for analysis. Therefore, in this challenge, we aim at the recognition of the inside-outside activities and main activities taking place during bento packing sessions.
+In addition, HAR has several remarkable applications in the real world, especially in the healthcare field. Besides the elderly/patient’s activity monitoring, the caregiver’s activity recognition plays an important role to improve the healthcare quality. Moreover, specifically in developed countries, the number of the elderly increases rapidly due to population aging, while the number of nurses can not satisfy. The greater the pressure on nurses, the more uncertain the healthcare quality is. Therefore, nurse care activity recognition is implemented to help the caregiver/nurse well manage and improve the quality of their work. In this challenge, based on the accelerometer data collected from the smartphone, the cheapest and easy-to-implement way, we aim to recognize the daily nurse care activities taking place at the nursing care facility.
 
 ## Challenge Goal
-The goal of the Bento Packaging Activity Recognition Challenge is to distinguish activities taking place during each segment based on the motion data collected with motion capture sensors while performing Bento-box packaging tasks ([Read data description](/bento2021/data/)). In the training dataset, we have provided data about 3 subjects along with all activity labels. In the test dataset unlabeled data of the remaining subject has been given. Participants have to submit their predicted activity labels on the test dataset using their models.
+The goal of the Nurse Care Activity Recognition Challenge is to recognize the daily activities of a caregiver/nurse in a healthcare facility based on the accelerometer data collected from smartphones. Participants utilize accelerometer data and its activity labels in training files, propose the methods to extract features from these data, and then feed to their own model. Finally, each team needs to use their model to predict the activity based on the accelerometer data following by the timestamp in the test data. 
 
-- [Registration is opening now.](/bento2021/registration/)
-- [To understand the dataset more clearly](/bento2021/data/).
+- [Tutorial here](/challenge2022/data/). 
+- [Registration is opening now.](/challenge2022/registration/)
+- [To understand the dataset more clearly](/challenge2022/tutorial/).
 
-The training dataset contains data about 3 subjects and contains all activity labels.
-The test dataset contains data about the other subject and is not labeled.
-Participants must submit their predicted macro and micro activities on the test dataset using their models.
+The training and testing dataset contains accelerometer data of 12 users (2, 3, 4, 5, 6, 7, 9, 12, 17, 19, 21, and 22), which were collected on May and June, 2018. The training data is provided with the activities labels, which describe the users’ activities before 18th June, 2018. The testing data was the accelerometer data acquired on 18th June and afterward. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
 
 
 ## Evaluation
