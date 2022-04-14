@@ -16,16 +16,24 @@ The accelerometer data has been collected using one smartphone carried by subjec
 <style>
 ul.no-bullets {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
 }
 </style>
 ### Activities of direct care
 <ul class="no-bullets">
-  <li> Attached in right arm using armband</li>
-  <li> Attached in right arm using armband</li>
-  <li> Attached in right arm using armband</li>
-  <li> Attached in right arm using armband</li>
+  <li> 1: Vital </li>
+  <li> 7: Morning gathering/ exercises </li>
+  <li> 13: Family/guest response </li>
+  <li> 2: Meal/medication </li>
+  <li> 8: Rehabilitation / recreation </li>
+  <li> 14: Outing response </li>
+  <li> </li>
+  <li> </li>
+  <li> </li>
+  <li> </li>
+  <li> </li>
+  <li> </li>
 </ul>
 
 ## Data structure (not final)
