@@ -13,6 +13,13 @@ The accelerometer data has been collected using one smartphone carried by subjec
   <li><b>Training and Testing data:</b> <a href = "https://ieee-dataport.org/open-access/nurse-care-activities-datasets-laboratory-and-real-field">Download the training and testing data</a></li>
 </ul>
 
+<style>
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+</style>
 ### Activities of direct care
 <ul class="no-bullets">
   <li> Attached in right arm using armband</li>
