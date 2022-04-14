@@ -4,9 +4,9 @@ title: Data Description
 permalink: /data/
 date: 2021-07-26T00:00:00+09:00
 ---
-The dataset was recorded in the Smart Life Care Unit of the Kyushu Institute of Technology in Japan. A motion capture system from Motion Analysis Company is used for this experiment. It has 29 body markers but in the challenge, we are opening only 13 body marker data. 4 subjects (men) in their 20's and 30's participated in this experiment. Each of the subjects is instructed to put three types of food in the bento box.
+The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
-- [Download train and test data](https://ieee-dataport.org/competitions/bento-packaging-activity-recognition-challenge)
+%- [Download train and test data](https://ieee-dataport.org/competitions/bento-packaging-activity-recognition-challenge)
 
 Here they were instructed to perform 5 different scenarios:
 
