@@ -10,6 +10,7 @@ This challenge and associated workshop are organized by [Sozolab](https://sozola
 - *Christina Garcia*
 - *Nazmun Nahid*
 - *Tahera Hossain*
+- *Sayeda Shamma Alia*
 - *Paula Lago*
 - *Sozo Inoue*
 
