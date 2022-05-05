@@ -15,7 +15,7 @@ main:
   # - title: "Submit a result"
   #   url: /submit/
   - title: "Registration"
-    url: <a href="https://forms.gle/GLFrkG5AxxCEuduh8">
+    url: https://forms.gle/GLFrkG5AxxCEuduh8
   - title: "FAQ"
     url: /faq/
   - title: "Organizers"
