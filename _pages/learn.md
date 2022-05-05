@@ -13,7 +13,7 @@ In addition, HAR has several remarkable applications in the real world, especial
 The goal of the Nurse Care Activity Recognition Challenge is to recognize the daily activities of a caregiver/nurse in a healthcare facility based on the accelerometer data collected from smartphones. Participants utilize accelerometer data and its activity labels in training files, propose the methods to extract features from these data, and then feed to their own model. Finally, each team needs to use their model to predict the activity based on the accelerometer data following by the timestamp in the test data. 
 
 - [Tutorial here](/challenge2022/data/)
-- [Registration is opening now.](<a href="https://forms.gle/GLFrkG5AxxCEuduh8">)
+- [Registration is opening now.](<"https://forms.gle/GLFrkG5AxxCEuduh8">)
 - [To understand the dataset more clearly](/challenge2022/tutorial/)
 
 The training and testing dataset contains accelerometer data of 12 users (2, 3, 4, 5, 6, 7, 9, 12, 17, 19, 21, and 22), which were collected on May and June, 2018. The training data is provided with the activities labels, which describe the users’ activities before 18th June, 2018. The testing data was the accelerometer data acquired on 18th June and afterward. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
