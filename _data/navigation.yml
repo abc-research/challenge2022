@@ -2,12 +2,12 @@
 main:
   - title: "The Challenge"
     url: /learn/
-  - title: "Data"
-    url: /data/
+  #- title: "Data" update
+  #  url: /data/
   # - title: "Rules"
   #   url: /rules/
-  - title: "Tutorial"
-    url: /tutorial/tutorial.html
+  #- title: "Tutorial" update
+  #  url: /tutorial/tutorial.html
   #- title: "Results"
   #  url: /results/
   # - title: "Registration"
