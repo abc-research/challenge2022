@@ -75,23 +75,8 @@ In each accelerometer data file, we have 4 columns: datetime and 3 coordinates o
 ![data-acc](/nurse2021/assets/data-acc.png)
 
 In the care record file, we have 12 columns: id (label id), user_id, role, activity_type_id, activity_type (name in japanese), activity_type_e (name in english), date, start time, finish time (of the activity), target_id (patients), target_role, activity2user_id. Participants should note that the start and finish time at the label_train file may differ from the datetime at the accelerometer file due to the different time zone.
-<!---
-In this challenge, participants are provided training data and test data. Training data contains accelerometer data from 12 subjects (2, 3, 4, 5, 6, 7, 9, 12, 17, 19, 21, and 22) and the activity labels file, which was collected in May and June, 2018 (before June 18th). Test data contains the data of 12 subjects (same id with the train data), which was collected in June, 2018 (at 18th and afterward).
-
-The provided training data folder includes the accelerometer data files of 12 subjects and the “label” folder, which contains “label_train.csv". 
-
-![fiels](/nurse2021/assets/files.png)
-
-In each accelerometer data file, we have 4 columns: datetime and 3 coordinates of the accelerometer data.
-
-![data-acc](/nurse2021/assets/data-acc.png)
 
 
-In the label file (“label.csv”), we have 12 columns: id (label id), user_id, role, activity_type_id, activity_type (name in japanese), activity_type_e (name in english), date, start time, finish time (of the activity), target_id (patients), target_role, activity2user_id.
-Participants should note that the start and finish time at the label_train file may differ from the datetime at the accelerometer file due to the different time zone.
-
-![data-record](/nurse2021/assets/data-record.png)
--->
 
 ## Test Data Setting
 This dataset was used in our previous work, titled [“Integrating Activity Recognition and Nursing Care Records: The System, Deployment, and a Verification Study”](https://dl.acm.org/doi/abs/10.1145/3351244). The authors of this work proposed a theory that  extension of start and ending time of the activities can increase the prediction rate. The reason behind the theory is that many of the nurses provided the labels before or after completing an activity. In the paper they verified and proved this theory. Following the theory, in the test data the time is extended for both start and end of an activity for 20 minutes. As the time is extended, there are some overlaps for the activity labels for some samples. So, the submission of the participants will be evaluated per activity following the same test setting as the paper. The final score will be calculated by taking the prediction average of all the activities.
