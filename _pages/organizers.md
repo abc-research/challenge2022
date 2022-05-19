@@ -19,5 +19,6 @@ Sozo Inoue Lab, Graduate School of Life Science and Systems Engineering, Kyushu 
 
 ## Address
 *Wakamatsu campus:* 2-4 Hibikino Wakamatsu-ku Kitakyushu Fukuoka 808-0196 JAPAN (Room 7270).
+
 *Phone/FAX:* (81) - 93 - 884 - 3410
 
