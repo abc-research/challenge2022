@@ -7,7 +7,7 @@ main:
   # - title: "Rules"
   #   url: /rules/
   - title: "Tutorial" 
-    url: /tutorial/tutorial.html
+    url: /tutorial/tutorial.ipynb
   #- title: "Results"
   #  url: /results/
   # - title: "Registration"
