@@ -16,7 +16,7 @@ td {
 </style>
 <table style="border: none">
   <tr>
-    <th style="text-align: center"><h3>Activities of direct care</h3></th>
+    <th style="text-align: left"><h3>Activities of direct care</h3></th>
   </tr>
     <tr><td>1: Vital</td></tr>
     <tr><td>7: Morning gathering/ exercises</td></tr>
@@ -40,7 +40,7 @@ td {
 
 <table>
   <tr>
-    <th style="text-align: center"><h3>Activities of residence cleaning</h3></th>
+    <th style="text-align: left"><h3>Activities of residence cleaning</h3></th>
   </tr>
     <tr><td>15: Linen exchange</td></tr>
     <tr><td>23: Preparation and checking of goods</td></tr>
@@ -50,7 +50,7 @@ td {
 
 <table>
   <tr>
-    <th style="text-align: center"><h3>Documentation/Communication activities</h3></th>
+    <th style="text-align: left"><h3>Documentation/Communication activities</h3></th>
   </tr>
     <tr><td>17: Handwriting recording</td></tr>
     <tr><td>22: Doctor visit correspondence</td></tr>
@@ -60,7 +60,7 @@ td {
 
 <table>
   <tr>
-    <th style="text-align: center"><h3>Other activities</h3></th>
+    <th style="text-align: left"><h3>Other activities</h3></th>
   </tr>
     <tr><td>26: Break</td></tr>
     <tr><td>28: Special remarks/notes</td></tr>
@@ -88,7 +88,7 @@ Participants should note that the start and finish time at the label_train file 
 This dataset was used in our previous work, titled [“Integrating Activity Recognition and Nursing Care Records: The System, Deployment, and a Verification Study”](https://dl.acm.org/doi/abs/10.1145/3351244). The authors of this work proposed a theory that  extension of start and ending time of the activities can increase the prediction rate. The reason behind the theory is that many of the nurses provided the labels before or after completing an activity. In the paper they verified and proved this theory. Following the theory, in the test data the time is extended for both start and end of an activity for 20 minutes. As the time is extended, there are some overlaps for the activity labels for some samples. So, the submission of the participants will be evaluated per activity following the same test setting as the paper. The final score will be calculated by taking the prediction average of all the activities.
 
 
-<----
+<!--
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
 <ul>
