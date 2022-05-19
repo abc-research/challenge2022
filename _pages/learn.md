@@ -14,7 +14,7 @@ This year's goal of the Nurse Care Activity Recognition Challenge is to predict 
 
 The training and testing dataset contains accelerometer data and care record data of 5 users ( 8, 13, 14, 15, 25), which were collected on May and June, 2018. Training and testing data were separated in 70~30 ratio based on each user data. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
 
-- [Tutorial here](/challenge2022/tutorial/) 
+- [Check the tutorial here](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing) 
 - [To understand the dataset more clearly](/challenge2022/data/)
 - [To download the dataset](https://ieee-dataport.org/documents/2022-nurse-care-activity-recognition-challenge-datasets)
 
