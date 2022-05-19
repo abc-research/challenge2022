@@ -4,7 +4,7 @@ title: Data Description
 permalink: /data/
 date: 2022-05-18T00:00:00+09:00
 ---
-The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
+The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
 <style>
 tr,
@@ -70,6 +70,7 @@ td {
 The training and testing dataset contains accelerometer data and care record data of 5 users ( 8, 13, 14, 15, 25), which were collected on May and June, 2018. Training and testing data were separated in 70~30 ratio based on each user data.
 
 The provided each user folder includes the accelerometer data files for whole time, training care record file and testing care record file. In training care record we have activity information but in testing care record we remove it. Your work is to predict these activities and generate files.
+
 In each accelerometer data file, we have 4 columns: datetime and 3 coordinates of the accelerometer data.
 
 ![data-acc](/nurse2021/assets/data-acc.png)
