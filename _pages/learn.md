@@ -12,11 +12,11 @@ In addition, HAR has several remarkable applications in the real world, especial
 ## Challenge Goal 
 This year's goal of the Nurse Care Activity Recognition Challenge is to predict the daily activities of a caregiver/nurse in a healthcare facility based on the care records file and accelerometer data collected from smartphones. Along with the time data from the care records we expect participants to utilize accelerometer data to predict the future occurrence of the activities. The activity labels can be found in care record files. We want the participants to propose the methods to extract features from these data, use different windowing methods if possible and then feed them to their own model. Finally, each team needs to use their model to predict the activity followed by the timestamp in the test data. You can check out the basic [HAR tutorial here]("https://abc-research.github.io/nurse2021/tutorial/tutorial.html").
 
-The training and testing dataset contains accelerometer data and care record data of 5 users ( 8, 13, 14, 15, 25), which were collected on May and June, 2018. Training and testing data were separated in 70~30 ratio based on each user data. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
-
 - [Check the tutorial here](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing) 
 - [To understand the dataset more clearly](/challenge2022/data/)
 - [To download the dataset](https://ieee-dataport.org/documents/2022-nurse-care-activity-recognition-challenge-datasets)
+
+The training and testing dataset contains accelerometer data and care record data of 5 users ( 8, 13, 14, 15, 25), which were collected on May and June, 2018. Training and testing data were separated in 70~30 ratio based on each user data. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
 
 <!--edit this part
 The goal of the Nurse Care Activity Recognition Challenge is to recognize the daily activities of a caregiver/nurse in a healthcare facility based on the accelerometer data collected from smartphones. Participants utilize accelerometer data and its activity labels in training files, propose the methods to extract features from these data, and then feed to their own model. Finally, each team needs to use their model to predict the activity based on the accelerometer data following by the timestamp in the test data. 
