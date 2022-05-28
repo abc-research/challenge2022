@@ -2,7 +2,7 @@
 layout: single
 title: Data Description
 permalink: /data/
-date: 2022-05-18T00:00:00+09:00
+date: 2022-05-28T00:00:00+09:00
 ---
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
@@ -84,6 +84,7 @@ This dataset was used in our previous work, titled [“Integrating Activity Reco
 
 ## Data use
 All participants may use the data free of charge.
+[Download the dataset](http://bit.ly/Dataset4thNurseCareActivityRecognitionChallenge)
 
 <!--
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
