@@ -84,7 +84,7 @@ This dataset was used in our previous work, titled [“Integrating Activity Reco
 
 ## Data use
 All participants may use the data free of charge.
-[Download the dataset](http://bit.ly/Dataset4thNurseCareActivityRecognitionChallenge)
+[Download the dataset]([[http://bit.ly/Dataset4thNurseCareActivityRecognitionChalleng](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)e](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0))
 
 <!--
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
