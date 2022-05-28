@@ -2,7 +2,7 @@
 layout: single
 title: About the Nurse Care Activity Recognition Challenge 2022
 permalink: /learn/
-date: 2022-05-19T00:00:00+09:00
+date: 2022-05-28T00:00:00+09:00
 ---
 
 Human Activity Recognition (HAR) is the process of handling information from sensors and/or video capture devices under certain circumstances to correctly determine human activities. Traditionally, the HAR can be achieved by human observation through the visualization of video recording devices. However, it is time and labor consuming. Nowadays, this traditional way could be replaced by other simple and automatic methods based on sensors and Artificial Intelligence platforms. For instance, your smartphone or other smart wearable devices have the ability to recognize some of your movements such as walking or running based on the inside accelerometer sensor.
@@ -14,7 +14,7 @@ This year's goal of the Nurse Care Activity Recognition Challenge is to predict 
 
 - [Check the tutorial here](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing) 
 - [To understand the dataset more clearly](/challenge2022/data/)
-- [To download the dataset](http://bit.ly/Dataset4thNurseCareActivityRecognitionChallenge)
+- [Download the dataset]([http://bit.ly/Dataset4thNurseCareActivityRecognitionChallenge](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0))
 
 The training and testing dataset contains accelerometer data and care record data of 5 users ( 8, 13, 14, 15, 25), which were collected on May and June, 2018. Training and testing data were separated in 70~30 ratio based on each user data. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
 
