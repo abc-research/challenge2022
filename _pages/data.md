@@ -19,8 +19,8 @@ The data were collected on May and June 2018. This time for the challenge we are
 
 Inside the training data folder, we have provided both care records data and accelerometer data.
 
-<p>
-  <img src="/challenge2022/assets/images/TrainData.png" width="300" class="center"/>
+<p> 
+  <img src="/challenge2022/assets/images/TrainData.png" class="center" width="300"/>
 </p>
 
 In the accelerometer data folder, the data is not split. So if you want to utilize it you can match it with your train and test care record file to split them as shown in the tutorial.
@@ -42,13 +42,13 @@ In the care record data folder, we provided the separated care record data as sh
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
 
 <p>
-  <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="900" class="center"/>
+  <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="850" class="center"/>
 </p>
 
 In the test data folder, we will provide only the separated care record data as shown in the table.
 
 <p>
-  <img src="/challenge2022/assets/images/Test_data.png" width="300" class="center"/>
+  <img src="/challenge2022/assets/images/Test_data.png" width="250" class="center"/>
 </p>
 
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), target_id (patients), activity2user_id, start and finish timestamp of the activity, and year-month-date-hour timestamp.  In the training care records, we had activity information but in testing care records we remove it.
