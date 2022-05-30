@@ -28,7 +28,7 @@ Inside the training data folder, we have provided both care records data and acc
 In the accelerometer data folder, the data is not split. So if you want to utilize it you can match it with your train and test care record file to split them as shown in the tutorial.
 
 <p>
-  <img src="/challenge2022/assets/images/Accelerometera.png" width="300" class="center"/>
+  <img src="/challenge2022/assets/images/Accelerometer.png" width="300" class="center"/>
 </p>
 
 If you open the files you can see that the data contains: subject_id(nurse/caregiver), datetime(timestamp), and triaxial sensor data (x,y, and z).
