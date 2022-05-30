@@ -10,7 +10,7 @@ Human Activity Recognition (HAR) is the process of handling information from sen
 In addition, HAR has several remarkable applications in the real world, especially in the healthcare field. Besides the elderly/patient’s activity monitoring, the caregiver’s activity recognition plays an important role to improve the healthcare quality. Moreover, specifically in developed countries, the number of the elderly increases rapidly due to population aging, while the number of nurses can not satisfy. The greater the pressure on nurses, the more uncertain the healthcare quality is. Therefore, nurse care activity recognition is implemented to help the caregiver/nurse well manage and improve the quality of their work. In this challenge, based on the accelerometer data collected from the smartphone, the cheapest and easy-to-implement way, we aim to recognize the daily nurse care activities taking place at the nursing care facility.
 
 ## Challenge Goal 
-The goal of this year’s Nurse Care Activity Recognition Challenge is to predict the hourly activities of a caregiver/nurse in a healthcare facility based on the care records file and accelerometer data collected from smartphones. Along with the time data from the care records we expect participants to utilize accelerometer data to predict the future occurrence of the activities (future prediction). The activity labels can be found in care record files. We want the participants to propose the methods to extract features from these data, use different windowing methods if possible and then feed them to their own model. Finally, each team needs to use their model to predict the activity followed by the timestamp in the test data. You can check out the basic [HAR tutorial here](https://abc-research.github.io/nurse2021/tutorial/tutorial.html).
+The goal of this year’s 4th Nurse Care Activity Recognition Challenge is to predict the hourly activities of a caregiver/nurse in a healthcare facility based on the care records file and accelerometer data collected from smartphones. Along with the time data from the care records we expect participants to utilize accelerometer data to predict the future occurrence of the activities (future prediction). The activity labels can be found in care record files. We want the participants to propose the methods to extract features from these data, use different windowing methods if possible and then feed them to their own model. Finally, each team needs to use their model to predict the activity followed by the timestamp in the test data. You can check out the basic [HAR tutorial here](https://abc-research.github.io/nurse2021/tutorial/tutorial.html).
 
 - [Check the tutorial here](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing) 
 - [To understand the dataset more clearly](/challenge2022/data/)
@@ -35,7 +35,14 @@ Submissions will be evaluated by the average of the accuracy of macro activity c
 The average accuracy of micro-activity classification is based on the multi-label accuracy formula. The accuracy of one sample is given by the number of correct labels predicted divided by the number of total true and predicted labels (cardinality of the union). 
 -->
 ## Evaluation
-As shown in table 3 we expect the participants to generate 5 similar files one for each user and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants. 
+Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset as shown in the [tutorial](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing). The participants need to generate files as shown in Table 3 below for each user for submission.
+
+![Table3](/challenge2022/assets/images/Table3.png)
+
+Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
+
+
+As shown in Table 3, we expect the participants to generate 5 similar files one for each user and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants. 
 
 For evaluation along with counting the percentage of how many activities were predicted for each user, we will also consider Precision, Recall, and F1 Score. The baseline result for each user is shared in the table below. 
 
