@@ -8,6 +8,7 @@ The we are providing this time is a part of the dataset which was used in our pr
 
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
+![Table1](/challenge2022/assets/images/Table1.png)
 
 ## Data structure
 The data were collected on May and June 2018. This time for the challenge we are providing data of 5 users ( 8, 13, 14, 15, 25). Training and testing care record data separation dates are given in the table below.
