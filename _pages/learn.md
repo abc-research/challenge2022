@@ -2,7 +2,7 @@
 layout: single
 title: About the Nurse Care Activity Recognition Challenge 2022
 permalink: /learn/
-date: 2022-05-28T00:00:00+09:00
+date: 2022-05-30T00:00:00+09:00
 ---
 
 Human Activity Recognition (HAR) is the process of handling information from sensors and/or video capture devices under certain circumstances to correctly determine human activities. Traditionally, the HAR can be achieved by human observation through the visualization of video recording devices. However, it is time and labor consuming. Nowadays, this traditional way could be replaced by other simple and automatic methods based on sensors and Artificial Intelligence platforms. For instance, your smartphone or other smart wearable devices have the ability to recognize some of your movements such as walking or running based on the inside accelerometer sensor.
@@ -35,7 +35,7 @@ Submissions will be evaluated by the average of the accuracy of macro activity c
 The average accuracy of micro-activity classification is based on the multi-label accuracy formula. The accuracy of one sample is given by the number of correct labels predicted divided by the number of total true and predicted labels (cardinality of the union). 
 -->
 ## Evaluation
-As shown in table 3 we expect the participants to generate 5 similar files one for each user and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to be occurred by the participants. 
+As shown in table 3 we expect the participants to generate 5 similar files one for each user and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants. 
 
 For evaluation along with counting the percentage of how many activities were predicted for each user, we will also consider Precision, Recall, and F1 Score. The baseline result for each user is shared in the table below. 
 
