@@ -35,22 +35,26 @@ If you open the files you can see that the data contains: subject_id(nurse/careg
 
 In the care record data folder, we provided the separated care record data as shown in the table.
 
-![Care_record_folder](/challenge2022/assets/images/Care_record_folder.png)
+<p>
+  <img src="/challenge2022/assets/images/Care_record_folder.png" width="300" class="center"/>
+</p>
 
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
 
 <p>
-  <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="700" class="center"/>
+  <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="900" class="center"/>
 </p>
 
 In the test data folder, we will provide only the separated care record data as shown in the table.
 
-![Test_data](/challenge2022/assets/images/Test_data.png)
+<p>
+  <img src="/challenge2022/assets/images/Test_data.png" width="300" class="center"/>
+</p>
 
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), target_id (patients), activity2user_id, start and finish timestamp of the activity, and year-month-date-hour timestamp.  In the training care records, we had activity information but in testing care records we remove it.
 
 <p>
-  <img src="/challenge2022/assets/images/test_data_sheet.png" width="700" class="center"/>
+  <img src="/challenge2022/assets/images/test_data_sheet.png" width="900" class="center"/>
 </p>
 
 If you want you can match it with the accelerometer data that was provided inside. Participants should note that the start and finish time at the care record file may differ from the datetime at the accelerometer file due to the different time zone settings. 
