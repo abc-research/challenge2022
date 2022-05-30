@@ -4,8 +4,6 @@ title: Data Description
 permalink: /data/
 date: 2022-05-30T00:00:00+09:00
 ---
-The we are providing this time is a part of the dataset which was used in our previous work, titled [“Integrating Activity Recognition and Nursing Care Records: The System, Deployment, and a Verification Study”](https://dl.acm.org/doi/abs/10.1145/3351244). The authors of this work proposed a theory that extending of start and end times of the activities can increase the prediction rate. The reason behind the theory is that many of the nurses provided the labels before or after completing an activity. In the paper, they verified and proved this theory. A part of this data set has also been used in last year's [3rd nurse care challenge](https://abc-research.github.io/nurse2021/). The summary paper is titled [”Summary of the Third Nurse Care Activity Recognition Challenge - Can We Do from the Field Data?](http://dx.doi.org/10.1145/3460418.3479391)”
-
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
 <p>
