@@ -2,12 +2,12 @@
 layout: single
 title: ""
 permalink: /faq/
-date: 2022-05-04T00:00:00+09:00
+date: 2022-05-30T00:00:00+09:00
 ---
 
 # Frequently Asked Questions
 
-Submit your questions to abc2022@sozolab.jp with the subject *Nurse Care Challenge 2022*.
+Submit your questions to abc2022@sozolab.jp with the subject *4th Nurse Care Activity Recognition Challenge*.
 
 <!--
 **What is the sampling rate of each device?**
