@@ -1,6 +1,6 @@
 ---
 layout: single
-title: About the Nurse Care Activity Recognition Challenge 2022
+title: About the Fourth Nurse Care Activity Recognition Challenge 2022
 permalink: /learn/
 date: 2022-05-30T00:00:00+09:00
 ---
