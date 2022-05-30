@@ -2,8 +2,62 @@
 layout: single
 title: Data Description
 permalink: /data/
-date: 2022-05-28T00:00:00+09:00
+date: 2022-05-30T00:00:00+09:00
 ---
+The we are providing this time is a part of the dataset which was used in our previous work, titled [“Integrating Activity Recognition and Nursing Care Records: The System, Deployment, and a Verification Study”](https://dl.acm.org/doi/abs/10.1145/3351244). The authors of this work proposed a theory that extending of start and end times of the activities can increase the prediction rate. The reason behind the theory is that many of the nurses provided the labels before or after completing an activity. In the paper, they verified and proved this theory. A part of this data set has also been used in last year's [3rd nurse care challenge](https://abc-research.github.io/nurse2021/). The summary paper is titled [”Summary of the Third Nurse Care Activity Recognition Challenge - Can We Do from the Field Data?](http://dx.doi.org/10.1145/3460418.3479391)”
+
+The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
+
+![Table1](/challenge2022/assets/images/Table1.png)
+
+## Data structure
+The data were collected on May and June 2018. This time for the challenge we are providing data of 5 users ( 8, 13, 14, 15, 25). Training and testing care record data separation dates are given in the table below.
+
+![Table2](/challenge2022/assets/images/Table2.png)
+
+Inside the training data folder, we have provided both care records data and accelerometer data.
+
+![TrainData](/challenge2022/assets/images/TrainData.png)
+
+In the accelerometer data folder, the data is not split. So if you want to utilize it you can match it with your train and test care record file to split them as shown in the tutorial.
+
+![Accelerometer](/challenge2022/assets/images/Accelerometer.png)
+
+If you open the files you can see that the data contains: subject_id(nurse/caregiver), datetime(timestamp), and triaxial sensor data (x,y, and z).
+
+![Accel_sheet](/challenge2022/assets/images/Accel_sheet.png)
+
+In the care record data folder, we provided the separated care record data as shown in the table.
+
+![Care_record_folder](/challenge2022/assets/images/Care_record_folder.png)
+
+If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
+
+![Care_rec_sheet](/challenge2022/assets/images/Care_rec_sheet.png)
+
+In the test data folder, we will provide only the separated care record data as shown in the table.
+
+![Test_data](/challenge2022/assets/images/Test_data.png)
+
+If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), target_id (patients), activity2user_id, start and finish timestamp of the activity, and year-month-date-hour timestamp.  In the training care records, we had activity information but in testing care records we remove it.
+
+![test_data_sheet](/challenge2022/assets/images/test_data_sheet.png)
+
+If you want you can match it with the accelerometer data that was provided inside. Participants should note that the start and finish time at the care record file may differ from the datetime at the accelerometer file due to the different time zone settings. 
+
+Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset as shown in the [tutorial](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing). The participants need to generate files as shown in Table 3 below for each user for submission.
+
+![Table3](/challenge2022/assets/images/Table3.png)
+
+Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
+
+
+## Data use
+All participants may use the data free of charge.
+[Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
+
+
+<!--
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
 <style>
@@ -81,65 +135,5 @@ In the care record file, we have 12 columns: id (label id), user_id, role, activ
 
 ## Test Data Setting
 This dataset was used in our previous work, titled [“Integrating Activity Recognition and Nursing Care Records: The System, Deployment, and a Verification Study”](https://dl.acm.org/doi/abs/10.1145/3351244). The authors of this work proposed a theory that  extension of start and ending time of the activities can increase the prediction rate. The reason behind the theory is that many of the nurses provided the labels before or after completing an activity. In the paper they verified and proved this theory. Following the theory, in the test data the time is extended for both start and end of an activity for 20 minutes. As the time is extended, there are some overlaps for the activity labels for some samples. So, the submission of the participants will be evaluated per activity following the same test setting as the paper. The final score will be calculated by taking the prediction average of all the activities.
-
-## Data use
-All participants may use the data free of charge.
-[Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
-
-<!--
-The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
-
-<ul>
-  <li><b>Position of the Mobile phone:</b> Attached in right arm using armband</li>
-  <li><b>Sampling rate:</b> 60 Hz</li>
-  <li><b>Preprocessing:</b> No preprocessing method is applied on this data</li>
-  <li><b>Training and Testing data:</b> <a href = "https://ieee-dataport.org/open-access/nurse-care-activities-datasets-laboratory-and-real-field">Download the training and testing data</a></li>
-</ul>
-
-<style>
-ul.no-bullets {
-  list-style-type: none;
-  margin: 1;
-  padding: 1;
-}
-</style>
-### Activities of direct care
-<ul class="no-bullets">
-  <li> 1: Vital </li>
-  <li> 7: Morning gathering/ exercises </li>
-  <li> 13: Family/guest response </li>
-  <li> 2: Meal/medication </li>
-  <li> 8: Rehabilitation / recreation </li>
-  <li> 14: Outing response </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-</ul>
-
-## Data structure (not final)
-### Training
-In this challenge, participants are provided training data and test data. Training data contains accelerometer data from 12 subjects (2, 3, 4, 5, 6, 7, 9, 12, 17, 19, 21, and 22) and the activity labels file, which was collected in May and June, 2018 (before June 18th). Test data contains the data of 12 subjects (same id with the train data), which was collected in June, 2018 (at 18th and afterward).
-
-The provided training data folder includes the accelerometer data files of 12 subjects and the “label” folder, which contains “label_train.csv”.
-
-In each accelerometer data file, we have 4 columns: datetime and 3 coordinates of the accelerometer data.
-
-In the label file (“label.csv”), we have 12 columns: id (label id), user_id, role, activity_type_id, activity_type (name in japanese), activity_type_e (name in english), date, start time, finish time (of the activity), target_id (patients), target_role, activity2user_id. Participants should note that the start and finish time at the label_train file may differ from the datetime at the accelerometer file due to the different time zone.
-
-<ul>
-  <li>Field accelerometer data (6 subjects)</li>
-  <li>Lab  accelerometer data (2 subjects)</li>
-  <li>labels of field data</li>
-  <li>labels of lab data</li>
-</ul>
-
-### Testing
-This dataset was used in our previous work, titled “Integrating Activity Recognition and Nursing Care Records: The System, Deployment, and a Verification Study”. The authors of this work proposed a theory that extension of start and ending time of the activities can increase the prediction rate. The reason behind the theory is that many of the nurses provided the labels before or after completing an activity. In the paper they verified and proved this theory. Following the theory, in the test data the time is extended for both start and end of an activity for 20 minutes. As the time is extended, there are some overlaps for the activity labels for some samples. So, the submission of the participants will be evaluated per activity following the same test setting as the paper. The final score will be calculated by taking the prediction average of all the activities.
-
-<ul>
-  <li>Field accelerometer data (3 subjects) </li>
-</ul>
 --->
+
