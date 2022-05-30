@@ -8,9 +8,7 @@ The we are providing this time is a part of the dataset which was used in our pr
 
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
-<p>
-  <img src="/challenge2022/assets/images/Table1.png" width="650" class="center"/>
-</p>
+ here
 
 
 ## Data structure
@@ -20,39 +18,32 @@ The data were collected on May and June 2018. This time for the challenge we are
 
 Inside the training data folder, we have provided both care records data and accelerometer data.
 
-<p>
-  <img src="/challenge2022/assets/images/TrainData.png" width="300" class="center"/>
-</p>
+here
 
 
 In the accelerometer data folder, the data is not split. So if you want to utilize it you can match it with your train and test care record file to split them as shown in the tutorial.
 
-<p>
-  <img src="/challenge2022/assets/images/Accelerometer.png" width="300" class="center"/>
-</p>
+here 
 
 If you open the files you can see that the data contains: subject_id(nurse/caregiver), datetime(timestamp), and triaxial sensor data (x,y, and z).
 
-<p>
-  <img src="/challenge2022/assets/images/Accel_sheet.png" width="300" class="center"/>
-</p>
-
+here
 
 In the care record data folder, we provided the separated care record data as shown in the table.
 
-![Care_record_folder](/challenge2022/assets/images/Care_record_folder.png)
+here
 
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
 
-![Care_rec_sheet](/challenge2022/assets/images/Care_rec_sheet.png)
+here
 
 In the test data folder, we will provide only the separated care record data as shown in the table.
 
-![Test_data](/challenge2022/assets/images/Test_data.png)
+here
 
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), target_id (patients), activity2user_id, start and finish timestamp of the activity, and year-month-date-hour timestamp.  In the training care records, we had activity information but in testing care records we remove it.
 
-![test_data_sheet](/challenge2022/assets/images/test_data_sheet.png)
+here
 
 If you want you can match it with the accelerometer data that was provided inside. Participants should note that the start and finish time at the care record file may differ from the datetime at the accelerometer file due to the different time zone settings. 
 
@@ -73,6 +64,10 @@ All participants may use the data free of charge.
 ![TrainData](/challenge2022/assets/images/TrainData.png)
 ![Accelerometer](/challenge2022/assets/images/Accelerometer.png)
 ![Accel_sheet](/challenge2022/assets/images/Accel_sheet.png)
+![Care_record_folder](/challenge2022/assets/images/Care_record_folder.png)
+![Care_rec_sheet](/challenge2022/assets/images/Care_rec_sheet.png)
+![Test_data](/challenge2022/assets/images/Test_data.png)
+![test_data_sheet](/challenge2022/assets/images/test_data_sheet.png)
 
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
