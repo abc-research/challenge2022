@@ -9,7 +9,7 @@ The we are providing this time is a part of the dataset which was used in our pr
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
 <p>
-  <img src="/challenge2022/assets/images/Table1.png" width="700" class="center"/>
+  <img src="/challenge2022/assets/images/Table1.png" width="650" class="center"/>
 </p>
 
 
@@ -20,15 +20,23 @@ The data were collected on May and June 2018. This time for the challenge we are
 
 Inside the training data folder, we have provided both care records data and accelerometer data.
 
-![TrainData](/challenge2022/assets/images/TrainData.png)
+<p>
+  <img src="/challenge2022/assets/images/TrainData.png" width="300" class="center"/>
+</p>
+
 
 In the accelerometer data folder, the data is not split. So if you want to utilize it you can match it with your train and test care record file to split them as shown in the tutorial.
 
-![Accelerometer](/challenge2022/assets/images/Accelerometer.png)
+<p>
+  <img src="/challenge2022/assets/images/Accelerometera.png" width="300" class="center"/>
+</p>
 
 If you open the files you can see that the data contains: subject_id(nurse/caregiver), datetime(timestamp), and triaxial sensor data (x,y, and z).
 
-![Accel_sheet](/challenge2022/assets/images/Accel_sheet.png)
+<p>
+  <img src="/challenge2022/assets/images/Accel_sheet.png" width="300" class="center"/>
+</p>
+
 
 In the care record data folder, we provided the separated care record data as shown in the table.
 
@@ -60,7 +68,12 @@ All participants may use the data free of charge.
 [Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
 
 
-<!-- ![Table1](/challenge2022/assets/images/Table1.png)
+<!-- 
+![Table1](/challenge2022/assets/images/Table1.png)
+![TrainData](/challenge2022/assets/images/TrainData.png)
+![Accelerometer](/challenge2022/assets/images/Accelerometer.png)
+![Accel_sheet](/challenge2022/assets/images/Accel_sheet.png)
+
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
 <style>
