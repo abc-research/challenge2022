@@ -14,7 +14,6 @@ The accelerometer data has been collected using one smartphone carried by subjec
 
 ## Data structure
 The data were collected on May and June 2018. This time for the challenge we are providing data of 5 users ( 8, 13, 14, 15, 25). Training and testing care record data separation dates are given in the table below.
-
 ![Table2](/challenge2022/assets/images/Table2.png)
 
 Inside the training data folder, we have provided both care records data and accelerometer data.
