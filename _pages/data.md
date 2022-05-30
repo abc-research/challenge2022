@@ -9,7 +9,7 @@ The we are providing this time is a part of the dataset which was used in our pr
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed in the below table.
 
 <p>
-  <img src="/challenge2022/assets/images/Table1.png" width="650" class="center"/>
+  <img src="/challenge2022/assets/images/Table1.png" width="650" class="centerImage"/>       
 </p>
 
 ## Data structure
@@ -48,7 +48,7 @@ If you open the files you can see that the data contains: id (label id), user_id
 In the test data folder, we will provide only the separated care record data as shown in the table.
 
 <p>
-  <img src="/challenge2022/assets/images/Test_data.png" width="250" class="center"/>
+  <img src="/challenge2022/assets/images/Test_data.png" width="200" class="center"/>
 </p>
 
 If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), target_id (patients), activity2user_id, start and finish timestamp of the activity, and year-month-date-hour timestamp.  In the training care records, we had activity information but in testing care records we remove it.
