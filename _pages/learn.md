@@ -12,7 +12,7 @@ In addition, HAR has several remarkable applications in the real world, especial
 ## Challenge Goal 
 The goal of this year’s 4th Nurse Care Activity Recognition Challenge is to predict the hourly activities of a caregiver/nurse in a healthcare facility based on the care records file and accelerometer data collected from smartphones. Along with the time data from the care records we expect participants to utilize accelerometer data to predict the future occurrence of the activities (future prediction). The activity labels can be found in care record files. We want the participants to propose the methods to extract features from these data, use different windowing methods if possible and then feed them to their own model. Finally, each team needs to use their model to predict the activity followed by the timestamp in the test data. You can check out the basic [HAR tutorial here](https://abc-research.github.io/nurse2021/tutorial/tutorial.html).
 
-- [Check the tutorial here](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing) 
+- [Check the tutorial here](https://colab.research.google.com/drive/1A4zSOSO0IXwc-iB9EFdOr6mUP85KAxFm?usp=sharing)
 - [To understand the dataset more clearly](/challenge2022/data/)
 - [Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
 
