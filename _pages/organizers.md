@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /organizers/
-date: 2022-05-18T00:00:00+09:00
+date: 2022-05-31T00:00:00+09:00
 ---
 This challenge and associated workshop are organized by [Sozolab](https://sozolab.jp/?locale=en).
 
@@ -11,8 +11,8 @@ This challenge and associated workshop are organized by [Sozolab](https://sozola
 - *Nazmun Nahid*
 - *Tahera Hossain*
 - *Sayeda Shamma Alia*
-- *Paula Lago*
 - *Sozo Inoue*
+- *Paula Lago*
 
 ## Lab Information
 Sozo Inoue Lab, Graduate School of Life Science and Systems Engineering, Kyushu Institute of Technology.
