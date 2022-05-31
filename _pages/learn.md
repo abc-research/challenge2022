@@ -42,9 +42,10 @@ Participants are required to propose their pipelines, predict and submit the act
 Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
 
 
-As shown in Table 3, we expect the participants to generate 5 similar files one for each user and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants. 
+As shown in Table 3, we expect the participants to generate 5 similar files one for each user, and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants. 
 
-For evaluation along with counting the percentage of how many activities were predicted for each user, we will also consider Precision, Recall, and F1 Score. The baseline result for each user is shared in the table below. 
+For evaluation along with counting the percentage of how many activities were predicted for each user, we will also consider Precision, Recall, and F1 Score. We will take an average of all the scores of all the users.The baseline result for each user is shared in the table below. 
+ 
 
 ![Table4](/challenge2022/assets/images/Table4.png)
 
