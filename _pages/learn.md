@@ -49,7 +49,7 @@ For evaluation along with counting the percentage of how many activities were pr
 
 ![Table4](/challenge2022/assets/images/Table4.png)
 
-Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of data the provided.
+Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of the data provided.
 
 
 ## Data use
