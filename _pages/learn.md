@@ -16,6 +16,7 @@ The goal of this year’s Nurse Care Activity Recognition Challenge is to predic
 - [To understand the dataset more clearly](/challenge2022/data/)
 - [Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
 
+Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of the data provided.
 <!--edit this part
 The training and testing dataset contains accelerometer data and care record data of 5 users ( 8, 13, 14, 15, 25), which were collected on May and June, 2018. Training and testing data were separated in 70~30 ratio based on each user data. Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset.
 
@@ -49,7 +50,6 @@ For evaluation along with counting the percentage of how many activities were pr
 
 ![Table4](/challenge2022/assets/images/Table4.png)
 
-Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of the data provided.
 
 
 ## Data use
