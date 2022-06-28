@@ -9,6 +9,14 @@ date: 2022-05-30T00:00:00+09:00
 
 Submit your questions to abc2022@sozolab.jp with the subject *Nurse Care Challenge 2022*.
 
+Free to check the Tutorial page and recorded tutorial videos as most questions were discussed in there. 
+
+<ul> 
+<li><a href="https://colab.research.google.com/drive/1A4zSOSO0IXwc-iB9EFdOr6mUP85KAxFm?usp=sharing"><b>Link to the Tutorial Page</b></a></li>
+<li><a href="https://youtu.be/pzuAXzRtkHg"><b>Link to the recorded Japanese Tutorial</b></a></li>
+<li><a href="https://youtu.be/9djBag5QZqY"><b>Link to the recorded English Tutorial</b></a></li>
+</ul>
+
 <!--
 **What is the sampling rate of each device?**
 
