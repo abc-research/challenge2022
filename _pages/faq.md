@@ -9,6 +9,9 @@ date: 2022-05-30T00:00:00+09:00
 
 Submit your questions to abc2022@sozolab.jp with the subject *Nurse Care Challenge 2022*.
 
+Note:
+Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of the data provided.
+
 You can also check the Tutorial page and recorded tutorial videos as most questions were discussed in there. 
 
 <ul> 
@@ -17,7 +20,8 @@ You can also check the Tutorial page and recorded tutorial videos as most questi
 <li><a href="https://youtu.be/9djBag5QZqY"><b>Link to the recorded English Tutorial</b></a></li>
 </ul>
 
-Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of the data provided.
+
+
 
 
 
