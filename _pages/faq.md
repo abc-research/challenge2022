@@ -17,6 +17,7 @@ You can also check the Tutorial page and recorded tutorial videos as most questi
 <li><a href="https://youtu.be/9djBag5QZqY"><b>Link to the recorded English Tutorial</b></a></li>
 </ul>
 
+Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use both or either of the data provided.
 <!--
 **What is the sampling rate of each device?**
 
