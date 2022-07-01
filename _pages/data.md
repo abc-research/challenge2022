@@ -43,25 +43,19 @@ If you open the files you can see that the data contains: id (label id), user_id
   <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="850" class="center"/>
 </p>
 
-In the test data folder, we will provide only the separated care record data as shown in the table.
-
-<p>
-  <img src="/challenge2022/assets/images/Test_data.png" width="200" class="center"/>
-</p>
-
-If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), target_id (patients), activity2user_id, start and finish timestamp of the activity, and year-month-date-hour timestamp.  In the training care records, we had activity information but in testing care records we remove it.
+In the test data folder, we have provided each day's data for each user. If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
 
 <p>
   <img src="/challenge2022/assets/images/test_data_sheet.png" width="900" class="center"/>
 </p>
 
-If you want you can match it with the accelerometer data that was provided inside. Participants should note that the start and finish time at the care record file may differ from the datetime at the accelerometer file due to the different time zone settings. 
+If you want you can match it with the accelerometer data that was provided. Participants should note that the start and finish time at the care record file may differ from the datetime at the accelerometer file due to the different time zone settings.
 
-Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset as shown in the [tutorial](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing). The participants need to generate files as shown in Table 3 below for each user for submission.
+Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset as shown in the  [tutorial](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing). The test submission folder contains test time stamps that you need to predict for each user. The files contain time stamps, and activity_type_ids and the columns are filled up with zero as shown in Table 3 below.
 
 ![Table3](/challenge2022/assets/images/Table3.png)
 
-Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
+The participants are required to put 1 in place of 0 when the activity is supposed to happen and regenerate the files. Please make sure to maintain the shape same as the provided files(any changes that occurred in the submission are not the liability of the organizers, please make sure that there is no difference in shape and activity_type_id  with the given file)
 
 
 ## Data use
@@ -78,6 +72,9 @@ All participants may use the data free of charge.
 ![Care_rec_sheet](/challenge2022/assets/images/Care_rec_sheet.png)
 ![Test_data](/challenge2022/assets/images/Test_data.png)
 ![test_data_sheet](/challenge2022/assets/images/test_data_sheet.png)
+
+
+Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
 
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
