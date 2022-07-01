@@ -2,7 +2,7 @@
 layout: single
 title: Data Description
 permalink: /data/
-date: 2022-05-31T00:00:00+09:00
+date: 2022-07-1T00:00:00+09:00
 ---
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 28 activities divided into 4 groups. All the activities are listed in the below table.
 
@@ -37,11 +37,6 @@ In the care record data folder, we provided the separated care record data as sh
   <img src="/challenge2022/assets/images/Care_record_folder.png" width="300" class="center"/>
 </p>
 
-If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
-
-<p>
-  <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="850" class="center"/>
-</p>
 
 In the test data folder, we have provided each day's data for each user. If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
 
@@ -75,6 +70,13 @@ All participants may use the data free of charge.
 
 
 Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
+
+
+If you open the files you can see that the data contains: id (label id), user_id(nurse/caregiver), activity_type_id(unique id for each activity type), activity_type (activity name), target_id (patients), activity2user_id, start and finish timestamp of the activity and year-month-date-hour timestamp.
+
+<p>
+  <img src="/challenge2022/assets/images/Care_rec_sheet.png" width="850" class="center"/>
+</p>
 
 The accelerometer data has been collected using one smartphone carried by subjects, which are caregivers and nurses, when they were conducting daily works at a healthcare facility. The smartphone was carried in an arbitrary position such as a pocket. There are a total of 27 activities divided into 4 groups. All the activities are listed per category below.
 
