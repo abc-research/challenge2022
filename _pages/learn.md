@@ -38,17 +38,16 @@ Submissions will be evaluated by the average of the accuracy of macro activity c
 The average accuracy of micro-activity classification is based on the multi-label accuracy formula. The accuracy of one sample is given by the number of correct labels predicted divided by the number of total true and predicted labels (cardinality of the union). 
 -->
 ## Evaluation
-Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset as shown in the [tutorial](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing). The participants need to generate files as shown in Table 3 below for each user for submission.
+Participants are required to propose their pipelines, predict and submit the activity label for the testing dataset as shown in the [tutorial](https://colab.research.google.com/drive/1euqLhhsb21bbOETWMY9DkUcue6t33j1j?usp=sharing). The test submission folder contains test time stamps that you need to predict for each user. The files contain time stamps, and activity_type_ids and the columns are filled up with zero as shown in Table 3 below.
 
 ![Table3](/challenge2022/assets/images/Table3.png)
 
-Here A1, A2, A3, and A4 represents the activity_type_id and year-month-date-hour column values should be same the values given in the text file(any changes occurred in the submission is not the liability of the organizers, please make sure that there is no difference in the timestamp with the given file). The 1 shown in table 3 defines that that activity occurred in that certain hour. More explanations can be found in the tutorial.
+TThe participants are required to put 1 in place of 0 when the activity is supposed to happen and regenerate the files. Please make sure to maintain the shape same as the provided files(any changes that occurred in the submission are not the liability of the organizers, please make sure that there is no difference in shape and activity_type_id with the given file). 
 
+As shown in Table 3, we expect the participants to generate 5 similar files one for each user, and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants.
 
-As shown in Table 3, we expect the participants to generate 5 similar files one for each user, and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants. 
+For evaluation along with counting the percentage of how many activities were predicted for each user, we will also consider Precision, Recall, and F1 Score. We will take an average of all the scores of all the users.The baseline result for each user is shared in the table below.
 
-For evaluation along with counting the percentage of how many activities were predicted for each user, we will also consider Precision, Recall, and F1 Score. We will take an average of all the scores of all the users.The baseline result for each user is shared in the table below. 
- 
 
 ![Table4](/challenge2022/assets/images/Table4.png)
 
