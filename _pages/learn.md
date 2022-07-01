@@ -2,7 +2,7 @@
 layout: single
 title: About the Fourth Nurse Care Activity Recognition Challenge
 permalink: /learn/
-date: 2022-05-31T00:00:00+09:00
+date: 2022-07-1T00:00:00+09:00
 ---
 
 Human Activity Recognition (HAR) is the process of handling information from sensors and/or video capture devices under certain circumstances to correctly determine human activities. Traditionally, the HAR can be achieved by human observation through the visualization of video recording devices. However, it is time and labor consuming. Nowadays, this traditional way could be replaced by other simple and automatic methods based on sensors and Artificial Intelligence platforms. For instance, your smartphone or other smart wearable devices have the ability to recognize some of your movements such as walking or running based on the inside accelerometer sensor.
@@ -42,7 +42,7 @@ Participants are required to propose their pipelines, predict and submit the act
 
 ![Table3](/challenge2022/assets/images/Table3.png)
 
-TThe participants are required to put 1 in place of 0 when the activity is supposed to happen and regenerate the files. Please make sure to maintain the shape same as the provided files(any changes that occurred in the submission are not the liability of the organizers, please make sure that there is no difference in shape and activity_type_id with the given file). 
+The participants are required to put 1 in place of 0 when the activity is supposed to happen and regenerate the files. Please make sure to maintain the shape same as the provided files(any changes that occurred in the submission are not the liability of the organizers, please make sure that there is no difference in shape and activity_type_id with the given file). 
 
 As shown in Table 3, we expect the participants to generate 5 similar files one for each user, and submit them to us. As the occurrence of activities differs in different users we will match with label files of each user and see how many activities were accurately identified to have occurred by the participants.
 
