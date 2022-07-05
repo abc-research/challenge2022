@@ -57,6 +57,9 @@ The participants are required to put 1 in place of 0 when the activity is suppos
 All participants may use the data free of charge.
 [Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
 
+## Result Submission
+Please submit your results via the submission form. [Access the Submission Form here](https://forms.gle/cDEhfHQjiSGKP5Zh6)
+
 
 <!-- 
 ![Table1](/challenge2022/assets/images/Table1.png)
