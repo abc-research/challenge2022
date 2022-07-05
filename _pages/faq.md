@@ -23,6 +23,9 @@ Note:
 Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use care record or both data provided.
 
 
+## Result Submission
+Please submit your results via the submission form. [Access the Submission Form here](https://forms.gle/cDEhfHQjiSGKP5Zh6)
+
 
 
 <!--
