@@ -52,6 +52,8 @@ For evaluation along with counting the percentage of how many activities were pr
 ![Table4](/challenge2022/assets/images/Table4.png)
 
 
+## Result Submission
+Please submit your results via the submission form. [Access the Submission Form here](https://forms.gle/cDEhfHQjiSGKP5Zh6)
 
 ## Data use
 All participants may use the data free of charge. [Download the dataset](https://ieee-dataport.org/competitions/nurse-care-activity-recognition-challenge-datasets-2022-0)
