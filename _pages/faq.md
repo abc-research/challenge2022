@@ -2,7 +2,7 @@
 layout: single
 title: ""
 permalink: /faq/
-date: 2022-06-30T00:00:00+09:00
+date: 2022-07-14T00:00:00+09:00
 ---
 
 # Frequently Asked Questions
@@ -19,8 +19,22 @@ You can also check the Tutorial page and recorded tutorial videos as most questi
 </ul>
 
 
-Note:
-Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use care record or both data provided.
+## Previous Questions
+**Why there is time mismatch in the accelerometer data?**
+Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. 
+
+**Are we required to use both accelerometer and care record data?**
+Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use care record only or both data provided.
+
+**Where can we find the test data?**
+The test data is uploaded in the same IEEE port witht the train data. Please check the Data page.
+
+
+**What metrics can we check for the train data in preparation for test data evaluation?**
+As per the submission form, you are required to specify training performance in terms of Precision, Recall, F1 score and Accuracy.
+
+**Where can we submit the result?**
+Check the link to the submission form below. Don't forget to use the file format uploaded in the IEEE dapaport (filename Test Submission.zip) when uploading your results.
 
 
 ## Result Submission
