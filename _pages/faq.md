@@ -34,7 +34,7 @@ The test data is uploaded in the same IEEE port witht the train data. Please che
 As per the submission form, you are required to specify training performance in terms of Precision, Recall, F1 score and Accuracy.
 
 **Where can we submit the result?**
-Check the link to the submission form below. Don't forget to use the file format uploaded in the IEEE dapaport (filename Test Submission.zip) when uploading your results.
+Check the link to the submission form below. Don't forget to use the file format uploaded in the IEEE dataport (filename Test Submission.zip) when uploading your results.
 
 
 ## Result Submission
