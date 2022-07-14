@@ -27,7 +27,7 @@ Time mismatch is part of the challenge. You need to think of ways to utilize as 
 Our main focus is the care record data and accelerometer data is given as auxiliary information. The participants can use care record only or both data provided.
 
 **Where can we find the test data?**
-The test data is uploaded in the same IEEE port witht the train data. Please check the Data page.
+The test data is uploaded in the same IEEE port with the train data. Please check the Data page.
 
 
 **What metrics can we check for the train data in preparation for test data evaluation?**
