@@ -20,7 +20,7 @@ You can also check the Tutorial page and recorded tutorial videos as most questi
 
 
 ## Previous Questions
-**Why there is time mismatch in the accelerometer data?**
+**Why is there time mismatch in the accelerometer data?**
 Time mismatch is part of the challenge. You need to think of ways to utilize as much as data possible. 
 
 **Are we required to use both accelerometer and care record data?**
