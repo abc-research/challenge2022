@@ -44,7 +44,7 @@ Monica Perusquía-Hernández</div>
 <div>Authors: </div>
 
 <h3>
-    We thank all participants for their active participation in this challenge!!!
+    We thank all participants for their active participation in this challenge!
 </h3>
 
 
