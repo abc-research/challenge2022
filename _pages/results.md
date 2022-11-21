@@ -23,7 +23,7 @@ The Fourth Nurse Care Activity Recognition Challenge was successfully held and t
 
 
 
-<h2>Other Participant Teams</h2>
+<h2>Other Participating Teams</h2>
 <div><b>Team 2A B Core:</b> Ensemble Classifier for Nurse Care Activity Prediction Based on Care Records </div>
 <div>Authors: Björn Friedrich, and Andreas Hein </div>
 
