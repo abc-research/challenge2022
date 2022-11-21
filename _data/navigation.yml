@@ -15,8 +15,8 @@ main:
   #   url: /registration/
   # - title: "Submit a result"
   #   url: /submit/
-  - title: "Registration"
-    url: "https://forms.gle/GLFrkG5AxxCEuduh8"
+  #- title: "Registration"
+  #  url: "https://forms.gle/GLFrkG5AxxCEuduh8"
   - title: "FAQ"
     url: /faq/
   - title: "Organizers"
@@ -24,7 +24,7 @@ main:
   # - title: "Prize rules"
   #   url: /prize_rules/
 
-  # - title: "Results"
+   - title: "Results"
   #   url: /results/
 
   # - title: "Sitemap"
