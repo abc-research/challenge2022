@@ -27,27 +27,27 @@ The Fourth Nurse Care Activity Recognition Challenge was successfully held and t
 <div><b>Team 2A B Core:</b> Ensemble Classifier for Nurse Care Activity Prediction Based on Care Records </div>
 <div>Authors: Björn Friedrich, and Andreas Hein </div>
 
-<h3></h3>
+<p></p>
 
 <div><b>Team Data Drivers BD:</b> Future Prediction for Nurse Care Activities Using Deep Learning based Multi-Label Classification </div>
-<div>Authors: Wasim Akram, Md. Golam Rasul, Sayeda Fatema Tuj Zohura, Tanjila Alam Sathi, and Lutfun Nahar LOTA </div>
+<div>Authors: Wasim Akram, Md. Golam Rasul, Sayeda Fatema Tuj Zohura, Tanjila Alam Sathi, and Lutfun Nahar Lota </div>
 
-<h3></h3>
+<p></p>
 
 <div><b>Team Hippocrates:</b> Nurse Activity Recognition based on Temporal Frequency Features </div>
 <div>Authors: Md. Sohanur Rahman, Hasib Ryan Rahman, Abrar Zarif, Yeasin Arafat Pritom, and Md Atiqur Rahman Ahad </div>
 
-<h3></h3>
+<p></p>
 
 <div><b>Team Horizon:</b> A Sequential-based Analytical Approach for Nurse Care Activity Forecasting </div>
 <div>Authors: Md. Mamun Sheikh, Shahera Hossain, and Md Atiqur Rahman Ahad </div>
 
-<h3></h3>
+<p></p>
 
 <div><b>Team The Innovators:</b> Time Series Analysis of Care Records Data for Nurse Activity Recognition in the Wild </div>
 <div>Authors: M Kabiruzzaman, Mohammad Shidujaman, Shadril Hassan Shifat, Pritom Debnath, and Shahera Hossain</div>
 
-<h3></h3>
+<p></p>
 
 <div><b>Team Ulster:</b> Addressing the inconsistent and missing time stamps in Nurse Care Activity Recognition Care Record Dataset </div>
 <div>Authors: Ian Cleland, Rashid Kamal, Chris Nugent, and Paul McCullagh</div>
