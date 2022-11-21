@@ -9,8 +9,9 @@ The Fourth Nurse Care Activity Recognition Challenge was successfully held and t
 
 
 <h2>Winners</h2>
-<h3>1st Place: Team Not a Fan of Local Minima</h3>
-<div><b>Title:</b> </div>
+<h3><b><span style="color:blue"> 1st Place: Team Not a Fan of Local Minima </span></b></h3>
+
+<div><b>Title:</b> Pre- dicting user-specific future activities using lstm-based multi-label classification </div>
 <div><b>Authors:</b>Fardin Ahsan Sakib, Mohammad Sabik Irbaz, and Lutfun Nahar Lota</div>
 
 <h3>2nd Place: Team Alpha</h3>
